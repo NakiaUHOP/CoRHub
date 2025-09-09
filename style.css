@@ -1,0 +1,39 @@
+.DW-buttons {
+  display: flex;
+    justify-content: center;
+  align-items: center;
+  gap: 24px; /* space between buttons */
+  margin: 30px 0;
+}
+
+/* Button styling */
+.key-button {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #444;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  flex: 1 1 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.key-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+}
+@media (max-width: 600px) {
+  .key-button {
+    flex: 0 0 auto;         /* Prevent shrinking/growing */
+    flex-direction: column;
+    width: 200px;           /* Fixed width */
+    height: 200px;          /* Fixed height */
+  }
+}
+
+/* Background images */
+.voices    { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/DW-National-Choir-HUB/main/NC_Voices.png'); }
+.musicians { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/DW-National-Choir-HUB/main/NC_Music.png'); }
+.directors { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/DW-National-Choir-HUB/main/NC_Directors.png'); }
