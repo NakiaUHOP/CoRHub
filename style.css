@@ -34,6 +34,6 @@
 }
 
 /* Background images */
-.voices    { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/CoR-Hub/main/FOCUS.png'); }
-.musicians { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/CoR-Hub/main/ME.png'); }
-.directors { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/CoR-Hub/main/about.jpg'); }
+.focus    { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/CoR-Hub/main/FOCUS.png'); }
+.me { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/CoR-Hub/main/ME.png'); }
+.about { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/CoR-Hub/main/about.jpg'); }
